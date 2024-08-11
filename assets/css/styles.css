@@ -16,13 +16,21 @@ h1 {
   padding-right: 15%;
 }
 
+.ch-link {
+  background: #6900ff;
+  background: -webkit-linear-gradient(90deg,#6900ff 0%, #9951ff 100%);
+  background: linear-gradient(90deg, #6900ff 0%, #9951ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* cards */
 .card {
   padding: 0;
   background-color: rgba(0, 0, 0, 0.1);
   border: none;
 
-  margin: 1rem;
+  margin: 0.5rem;
 }
 
 .card-body {

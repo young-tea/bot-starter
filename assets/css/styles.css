@@ -1,0 +1,114 @@
+/* main */
+body {
+  background-color: #202328;
+}
+
+h1 {
+  color: #fff;
+}
+
+.color-white {
+  color: #fff;
+}
+
+/* cards */
+.card-img-custom {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.card-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.card-link:hover {
+  color: #E5CE96;
+}
+
+.btn-custom {
+  border: solid 1px rgba( 255, 255, 255, 0.1 );
+  color: rgba( 255, 255, 255, 0.7 );
+}
+
+.btn-custom:hover {
+  border: solid 1px rgba( 255, 255, 255, 0.3 );
+  color: rgba( 255, 255, 255, 0.8 );
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* footer */
+.footer-text {
+  color: #fff;
+
+  margin: 0;
+}
+
+footer {
+  margin:0;
+}
+
+.footer {
+  padding-top: 0.75em;
+
+  background: #495263;
+  height: 5vh;
+  margin-top: 5em;
+}
+
+.footer-link{
+  color: #E5CE96;
+  text-decoration: none;
+}
+
+.footer-link:hover{
+  color: #E5CE96;
+  text-decoration: underline;
+}
+
+/* main page */
+
+.glass-bg {
+  background: rgba( 255, 255, 255, 0.1 );
+  backdrop-filter: blur( 0.5px );
+  -webkit-backdrop-filter: blur( 0.5px );
+  border-radius: 10px;
+
+  border: 1px solid rgba( 255, 255, 255, 0.1 );
+
+  padding: 0 !important;
+
+  margin: 0.5em;
+}
+
+.main-footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba( 255, 255, 255, 0.2 );
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3a414f;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border-radius: 25px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

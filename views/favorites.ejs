@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('includes/head'); %>
+
+<body>
+
+  <div class="container-fluid">
+    <div class="row d-flex justify-content-center">
+
+      <%- include('includes/sub'); %>
+      <%- include('includes/mainpage-btn'); %>
+
+      <% if (dispItems.length > 0) {%>
+
+        <% for(var item of dispItems) { %>
+          <div class="card text-center" style="width: 7rem;">
+            <a href="<%= item[0].link %>">
+              <img src="<%= item[0].img %>" class="card-img-top">
+            </a>
+            <div class="card-body">
+              <p class="card-text"><a href="<%= item[0].link %>" class="cardlink"><%= item[0].name %></a></p>
+            </div><!--card-body-->
+          </div><!--card-->
+        <% } %>
+      
+      <% } else {%>
+      
+      <div class="">You didnt add any favorite apps yet!</div>
+      
+      <% }%>
+
+      <div class="space"></div>
+      
+    </div><!-- row -->
+
+  </div><!-- container-fluid -->
+  
+</body>
+</html>

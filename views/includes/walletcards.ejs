@@ -1,0 +1,23 @@
+<link rel="stylesheet" href="/css/styles.css">
+
+<% if (wallets.wallets.length) {%>
+
+  <% for(var wallet of wallets.wallets) { %>
+
+    <div class="card text-center" style="width: 7rem;">
+      <a href="<%= wallet.link %>">
+        <img src="<%= wallet.img %>" class="card-img-top">
+      </a>
+       <div class="card-body">
+        <p class="card-text"><a href="<%= wallet.link %>" class="cardlink"><%= wallet.name %></a></p>
+      </div><!--card-body-->
+    </div><!--card-->
+
+  <% } %>
+
+<% } else {%>
+
+    <div class="">No apps available</div>
+
+<% }%>
+      

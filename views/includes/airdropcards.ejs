@@ -1,0 +1,31 @@
+<link rel="stylesheet" href="/css/styles.css">
+
+<% if (apps.airdrops.length) {%>
+
+  <% for(var airdrop of apps.airdrops) { %>
+
+    <div class="card text-center" style="width: 7rem;">
+      <a href="<%= airdrop.link %>">
+        <img src="<%= airdrop.img %>" class="card-img-top">
+      </a>
+      <div class="card-body">
+        <p class="card-text"><a href="<%= airdrop.link %>" class="cardlink"><%= airdrop.name %></a></p>
+
+        <form method="post" onClick="passfav(airdrop.id)" action="/add-fav">
+
+          <input type="hidden" value="<%= airdrop.id %>" name="appId">
+
+          <button class="btn btn-warning">fav</button>
+
+        </form>
+      </div><!--card-body-->
+    </div><!--card-->
+
+  <% } %>
+
+<% } else {%>
+
+    <div class="">No apps available</div>
+
+<% }%>
+      

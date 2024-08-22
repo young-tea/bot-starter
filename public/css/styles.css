@@ -1,0 +1,130 @@
+/* main */
+body {
+  background-color: #202328;
+}
+
+h1 {
+  color: #fff;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.row {
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+}
+
+.ch-link {
+  background: #6900ff;
+  background: -webkit-linear-gradient(90deg,#6900ff 0%, #9951ff 100%);
+  background: linear-gradient(90deg, #6900ff 0%, #9951ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.space {
+  margin-top: 10%;
+}
+
+/* cards */
+.card {
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: none;
+
+  margin: 0.5rem;
+}
+
+.card-body {
+  padding: 0.25em;
+}
+
+.cardlink {
+  text-decoration: none;
+  color: white;
+}
+
+.indexcard{
+  padding: 2% 5%;
+  border: 1px solid rgba( 255, 255, 255, 0.1 );
+}
+
+.watafak {
+  border-top: solid 1px rgba(255, 255, 255, 0.55);
+  background: rgba(20, 23, 28, 0.95) !important;
+
+}
+
+/* footer */
+.footer-text {
+  color: #fff;
+
+  margin: 0;
+}
+
+footer {
+  margin:0;
+}
+
+.footer {
+  padding-top: 0.75em;
+
+  background: #495263 !important;
+  height: 7.5vh;
+  margin-top: 5em;
+}
+
+.footer-link{
+  color: #E5CE96;
+  text-decoration: none;
+}
+
+.footer-link:hover{
+  color: #E5CE96;
+  text-decoration: underline;
+}
+
+/* main page */
+
+.glass-bg {
+  background: rgba( 255, 255, 255, 0.1 );
+  backdrop-filter: blur( 0.5px );
+  -webkit-backdrop-filter: blur( 0.5px );
+  border-radius: 10px;
+
+  border: 1px solid rgba( 255, 255, 255, 0.1 );
+
+  padding: 0 !important;
+}
+
+.main-footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba( 255, 255, 255, 0.2 );
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3a414f;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border-radius: 25px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

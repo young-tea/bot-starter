@@ -1,0 +1,77 @@
+{
+  "airdrops" : [
+    {
+      "id" : "blum",
+      "name" : "Blum",
+      "img" : "/img/blum.jpeg",
+      "link" : "https://t.me/BlumCryptoBot/app?startapp"
+    },
+    {
+      "id" : "vertus",
+      "name" : "Vertus",
+      "img" : "/img/vertus.jpeg",
+      "link" : "https://t.me/vertus_app_bot/app?startapp"
+    },
+    {
+      "id" : "bull",
+      "name" : "Bull",
+      "img" : "/img/bull.jpeg",
+      "link" : "https://t.me/BullApp_bot/app?startapp"
+    },
+    {
+      "id" : "pocket",
+      "name" : "PocketFi",
+      "img" : "/img/pocketfi.jpeg",
+      "link" : "https://t.me/pocketfi_bot/Mining?startapp"
+    },
+    {
+      "id" : "lum",
+      "name" : "LumCity",
+      "img" : "/img/lum.jpeg",
+      "link" : "https://t.me/LumCity_bot?start"
+    },
+    {
+      "id" : "hot",
+      "name" : "HOT",
+      "img" : "/img/hot.jpeg",
+      "link" : "https://t.me/herewalletbot/app?startapp"
+    },
+    {
+      "id" : "hamsterdam",
+      "name" : "Hamsterdam",
+      "img" : "/img/hamsterdam.jpeg",
+      "link" : "https://t.me/HamsterdamPlayBot/game?startapp"
+    },
+    {
+      "id" : "hamster",
+      "name" : "HamsterKombat",
+      "img" : "/img/hamster.jpeg",
+      "link" : "https://t.me/hamster_kombat_bot/start?startapp"
+    },
+    {
+      "id" : "bodypump",
+      "name" : "BodyPump",
+      "img" : "/img/bodypump.jpeg",
+      "link" : "https://t.me/Bodypump_app_bot"
+    },
+    {
+      "id" : "station",
+      "name" : "TonStation",
+      "img" : "/img/station.jpeg",
+      "link" : "https://t.me/tonstationgames_bot/app?startapp"
+    },
+    {
+      "id" : "dot",
+      "name" : "DotCoin",
+      "img" : "/img/dot.jpeg",
+      "link" : "https://t.me/dotcoin_bot/game?startapp"
+    },
+    {
+      "id" : "iceberg",
+      "name" : "Iceberg",
+      "img" : "/img/iceberg.jpeg",
+      "link" : "t.me/IcebergAppBot/start?startapp"
+    }
+  ]
+}
+

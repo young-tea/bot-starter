@@ -1,0 +1,15 @@
+{
+  "wallets" : [
+    {
+      "name" : "CryptoBot",
+      "img" : "/img/cryptobot.jpeg",
+      "link" : "http://t.me/send?start"
+    },
+    {
+      "name" : "DeWallet",
+      "img" : "/img/dewallet.jpeg",
+      "link" : "http://t.me/delabtonbot/wallet"
+    }
+  ]
+}
+
